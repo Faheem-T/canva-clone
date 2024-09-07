@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    box-shadow: 0 -3px 10px 0.2px gray;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* part that makes the header stay at the top */
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header .left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header .item {
+    padding: 25px;
+}
+
+.header .item :hover {
+    background-color: #F1F2F4;
+}
+
+.header .right {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding: 36px;
+}
+
+.hero .main {
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.hero .sub {
+    color: grey;
+}
+
+.gibberish {
+    height: 800px;
+}
