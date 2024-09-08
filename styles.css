@@ -143,6 +143,7 @@ button {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
+    justify-content: center;
 }
 
 .subscriptions .sub {
@@ -151,6 +152,7 @@ button {
     background-color: #F3E5FF;
     padding: 1rem;
     min-width: 200px;
+    max-width: 400px;
     border-radius: 1rem;
     align-items: start;
     gap: 2rem;
@@ -229,6 +231,5 @@ button {
     position: relative;
     top: -100px;
     height: 100px;
-    /* background: linear-gradient(to right, transparent, white 200%), linear-gradient(to left, transparent, white 200%); */
     background: linear-gradient(to right, white, transparent 20%), linear-gradient(to left, white, transparent 20%);
 }
