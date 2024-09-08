@@ -19,8 +19,7 @@ button {
     border-radius: 5px;
     border: none;
     font-weight: 900;
-    font-size: 14px;
-    flex: 1;
+    font-size: 1rem;
 }
 
 .primary-button {
@@ -206,7 +205,7 @@ button {
     text-align: center;
 }
 
-.subscriptions .footer .link {
+.link {
     text-decoration: underline;
     color: #A400FF;
 }
@@ -232,4 +231,50 @@ button {
     top: -100px;
     height: 100px;
     background: linear-gradient(to right, white, transparent 20%), linear-gradient(to left, white, transparent 20%);
+}
+
+
+/* .link was styled above (under subscriptions section) */
+
+.split {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.split .left, .split .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.split .secondary-button {
+    flex: 0;
+}
+
+.split img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.split .head {
+    /* the rest of the styles were declared above */
+    justify-content: start;
+}
+
+.split .sub {
+    font-size: 1.1rem;
+}
+
+@media (min-width: 700px)
+{
+    .split {
+        flex-direction: row;
+    }
 }
