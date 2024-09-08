@@ -114,10 +114,10 @@ img {
 }
 .card img {
     width: 12rem;
-    transition: transform 0.5s;
+    transition: 0.5s;
 }
 .hero .cards .card img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .hero-gradient {
