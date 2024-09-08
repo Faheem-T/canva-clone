@@ -135,6 +135,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .subscriptions .subs {
@@ -269,15 +270,9 @@ button {
 }
 
 .sub {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
-@media (min-width: 700px)
-{
-    .split {
-        flex-direction: row;
-    }
-}
 
 .templates {
     display: flex;
@@ -286,6 +281,10 @@ button {
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+}
+
+.templates .sub{
+    text-align: center;
 }
 
 .templates .cards {
@@ -307,4 +306,37 @@ button {
 
 .templates .button {
     margin-top: 4rem;
+}
+
+.teams .sub {
+    text-align: center;
+}
+
+.teams .split .right {
+    align-items: start;
+} 
+
+.right .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .2rem;
+}
+
+.right .item .sub {
+    text-align: start;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+
+@media (min-width: 700px)
+{
+    .split {
+        flex-direction: row;
+    }
+
+
 }
