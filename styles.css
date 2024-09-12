@@ -273,6 +273,10 @@ img {
     justify-content: start;
 }
 
+.split i {
+    font-size: 25px;
+}
+
 .sub {
     font-size: 1.2rem;
 }
@@ -294,10 +298,13 @@ img {
     gap: 1rem;
 }
 
-.cards .column {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.cards .card img {
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.cards .card img:hover {
+    transform: scale(1.05);
 }
 
 .templates .button {
